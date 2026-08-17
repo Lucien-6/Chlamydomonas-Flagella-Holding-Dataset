@@ -1,0 +1,27 @@
+# Operating system
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Editor / local
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local utility scripts (not part of the dataset release)
+convert_16bit_to_8bit.py
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

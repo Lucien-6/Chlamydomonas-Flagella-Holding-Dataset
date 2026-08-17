@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it using the metadata below.
+title: "Chlamydomonas Flagella Holding Segmentation Dataset"
+type: dataset
+version: 1.0.0
+date-released: "2026-08-17"
+license: CC-BY-4.0
+repository-code: "https://github.com/Lucien-6/Chlamydomonas-Flagella-Holding-Dataset"
+authors:
+  - family-names: Lucien
+    email: lucien-6@qq.com
+    affiliation: "University of Electronic Science and Technology of China (UESTC)"
+    city: Chengdu
+    country: CN
+abstract: >-
+  Manually annotated grayscale microscopy images and instance masks of
+  Chlamydomonas reinhardtii (strain CC125) flagella recorded while the cell
+  body was immobilized by a microneedle. The release contains 6,972
+  image–mask pairs (400 x 400, 8-bit TIFF) organized into 16 experimental
+  groups, and is intended for training and evaluating flagella
+  recognition and segmentation models.
+keywords:
+  - Chlamydomonas reinhardtii
+  - CC125
+  - flagella
+  - semantic segmentation
+  - instance segmentation
+  - microscopy
+  - microneedle holding
+  - deep learning
+  - UESTC
