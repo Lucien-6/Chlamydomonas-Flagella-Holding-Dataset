@@ -176,24 +176,16 @@ If a downstream tool expects `{0, 255}` binary masks, convert with `(mask > 0) *
 
 ## How to use
 
-### 1. Download the dataset
+### 1. Clone the repository
 
-The GitHub repository stores this documentation, the license, and citation metadata. The image–mask files (about **2.2 GiB**) are distributed as versioned ZIP archives attached to **[Release v1.0.0](https://github.com/Lucien-6/Chlamydomonas-Flagella-Holding-Dataset/releases/tag/v1.0.0)**.
+The full dataset is about **2.2 GiB**. A complete clone is required for training.
 
 ```bash
 git clone https://github.com/Lucien-6/Chlamydomonas-Flagella-Holding-Dataset.git
 cd Chlamydomonas-Flagella-Holding-Dataset
 ```
 
-Then download every group archive (`01.zip` … `16.zip`) from the release page and extract them in the repository root so that the layout matches the directory tree above. Each archive already contains its group folder name (`01/`, `02/`, …).
-
-From the GitHub CLI:
-
-```bash
-gh release download v1.0.0 --repo Lucien-6/Chlamydomonas-Flagella-Holding-Dataset --dir .
-# Windows PowerShell
-foreach ($z in Get-ChildItem *.zip) { tar -xf $z.FullName }
-```
+The repository contains this documentation together with the 16 group folders `01/` … `16/`. GitHub also provides a Source ZIP from the repository page; that archive is equivalent to `git clone`.
 
 ### 2. Python environment
 
